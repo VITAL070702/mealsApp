@@ -24,7 +24,8 @@ export default function App() {
     >
       <Stack.Screen
       name="MealsCategories"
-      component={categoriesScreen}
+      //cambie mayuscula C
+      component={CategoriesScreen}
       />
       <Stack.Screen
       name="MealsOverview"
