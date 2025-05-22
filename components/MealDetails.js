@@ -1,7 +1,7 @@
 import {View,Text,StyleSheet} from 'react-native'
 function MealDetails({duration, complexity, affordability}){
     return(
-        <View style={style.details}>
+        <View style={styles.details}>
             <Text style={styles.detailItem}>{duration}</Text>
             <Text style={styles.detailItem}>{complexity.toUpperCase()}</Text>
             <Text style={styles.detailItem}>{affordability.toUpperCase()}</Text>
